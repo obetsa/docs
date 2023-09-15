@@ -14,4 +14,5 @@ import project.models
 db.create_all()
 
 exit()"
+
 4. run.py

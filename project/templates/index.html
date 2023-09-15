@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    DOCS
+{% endblock %}
+
+{% block content %}
+    {% for post in posts %}
+<div class="grid text-center">
+  <div class="g-col-4">
+        <p>
+            {{ post.name }}
+        </p>
+  </div>
+</div>
+    {% endfor %}
+{% endblock %}
